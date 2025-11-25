@@ -36,9 +36,8 @@ const Mouthfeels = () => {
           </p>
          
           <p className="text-base font-dosis leading-relaxed text-[#444]" style={{ fontWeight: 500 }}>
-            Quilmes es Argentina — es fútbol, asado, verano, río, alegría, reunión y nostalgia.
-            <span className="italic"> Quilmes es la excusa perfecta para unir:
-entre amigos, entre desconocidos, entre generaciones.</span>
+            
+            <span className="italic"> Somos una cerveza de acá, hecha por gente de acá, con ingredientes de acá y para gente de acá. Somos la cerveza que tomás vos y la que tomaba tu viejo. Somos Quilmes, la cerveza argentina.</span>
           </p>
 
           <a

@@ -30,12 +30,7 @@ function App() {
         start: 'bottom center',
         end: 'bottom center',
         scrub: 3,
-        markers: {
-          startColor: 'blue',
-          endColor: 'orange',
-          fontSize: '18px',
-          indent: 100
-        },
+       
       }
     });
 
@@ -48,12 +43,7 @@ function App() {
         start: 'center top',
         end: 'bottom bottom',
         scrub: 5,
-        markers: {
-          startColor: 'blue',
-          endColor: 'orange',
-          fontSize: '18px',
-          indent: 100
-        },
+       
       }
     });
 
