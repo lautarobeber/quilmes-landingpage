@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Custom smooth scrolling */
+body {
+  overflow-y: scroll;
+  scroll-snap-type: y proximity;
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Texture text effect */
+.texture-text {
+  background-image: url('./assets/images/texture.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.texture-text-top {
+  background-image: url('./assets/images/texture.png');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom button styles */
+.btn-lagunitas {
+  padding: 1.25rem 1rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.5rem;
+  color: white;
+  background-color: #c71d1d;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-lagunitas-black {
+  padding: 0.75rem 1.25rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.25rem;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* Locomotive Scroll */
+html.has-scroll-smooth {
+  overflow: hidden;
+}
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.has-scroll-smooth body {
+  overflow: hidden;
+}
+
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh;
+}
