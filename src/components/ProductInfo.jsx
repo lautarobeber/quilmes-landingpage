@@ -53,39 +53,39 @@ const ProductInfo = () => {
         </div>
 
         <div className="relative mb-4 p-3 bg-white/80 backdrop-blur-sm rounded-2xl shadow-[0_15px_35px_rgba(0,65,130,0.12)] hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(0,65,130,0.18)] transition-all duration-300">
-          <h3 className="text-[14px] font-bold mb-1 text-[#0085CC] uppercase tracking-wide">GRADUACIÓN ALCOHÓLICA</h3>
-          <h5 className="text-[11px] font-medium text-gray-500 mb-2 italic">Volumen alcoholico</h5>
+          <h3 className="text-[12px] font-bold mb-1 text-[#0085CC] uppercase tracking-wide">GRADUACIÓN ALCOHÓLICA</h3>
+          <h5 className="text-[10px] font-medium text-gray-500 mb-2 italic">Volumen alcoholico</h5>
           <div className="flex justify-between items-center border-t-4 border-[#0085CC] pt-2">
-            <h2 className="text-[45px] font-anton text-[#0085CC] drop-shadow-md">
-              0,0 <span className="text-[30px]">%</span>
+            <h2 className="text-[32px] font-anton text-[#0085CC] drop-shadow-md">
+              0,0 <span className="text-[20px]">%</span>
             </h2>
-            <p className="text-[12px] w-[12vw] text-gray-700 leading-[16px] font-anton">
+            <p className="text-[10px] w-[12vw] text-gray-700 leading-[14px] font-anton">
               Una cerveza sin alcohol con el sabor exacto de una cerveza lager
             </p>
           </div>
         </div>
 
         <div className="relative mb-4 p-3 bg-white/80 backdrop-blur-sm rounded-2xl shadow-[0_15px_35px_rgba(0,65,130,0.12)] hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(0,65,130,0.18)] transition-all duration-300">
-          <h3 className="text-[14px] font-bold mb-1 text-[#0085CC] uppercase tracking-wide">AMARGOR</h3>
-          <h5 className="text-[11px] font-medium text-gray-500 mb-2 italic">IBU</h5>
+          <h3 className="text-[12px] font-bold mb-1 text-[#0085CC] uppercase tracking-wide">AMARGOR</h3>
+          <h5 className="text-[10px] font-medium text-gray-500 mb-2 italic">IBU</h5>
           <div className="flex justify-between items-center border-t-4 border-[#0085CC] pt-2">
-            <h2 className="text-[45px] font-anton text-[#0085CC] drop-shadow-md">
-              16<span className="text-[30px]">.5</span>
+            <h2 className="text-[32px] font-anton text-[#0085CC] drop-shadow-md">
+              16<span className="text-[20px]">.5</span>
             </h2>
-            <p className="text-[12px] w-[12vw] text-gray-700 leading-[16px] font-anton">
+            <p className="text-[10px] w-[12vw] text-gray-700 leading-[14px] font-anton">
               Nivel de amargor equilibrado para un sabor suave y refrescante
             </p>
           </div>
         </div>
 
         <div className="relative p-3 bg-white/80 backdrop-blur-sm rounded-2xl shadow-[0_15px_35px_rgba(0,65,130,0.12)] hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(0,65,130,0.18)] transition-all duration-300">
-          <h3 className="text-[14px] font-bold mb-1 text-[#0085CC] uppercase tracking-wide">TEMPERATURA IDEAL</h3>
-          <h5 className="text-[11px] font-medium text-gray-500 mb-2 italic">Temperatura de servido</h5>
+          <h3 className="text-[12px] font-bold mb-1 text-[#0085CC] uppercase tracking-wide">TEMPERATURA IDEAL</h3>
+          <h5 className="text-[10px] font-medium text-gray-500 mb-2 italic">Temperatura de servido</h5>
           <div className="flex justify-between items-center border-t-4 border-[#0085CC] pt-2">
-            <h2 className="text-[45px] font-anton text-[#0085CC] drop-shadow-md">
-              4 <span className="text-[30px]">°</span>
+            <h2 className="text-[32px] font-anton text-[#0085CC] drop-shadow-md">
+              4 <span className="text-[20px]">°</span>
             </h2>
-            <p className="text-[12px] w-[12vw] text-gray-700 leading-[16px] font-anton">
+            <p className="text-[10px] w-[12vw] text-gray-700 leading-[14px] font-anton">
               Temperatura perfecta para disfrutar el mejor sabor y frescura
             </p>
           </div>

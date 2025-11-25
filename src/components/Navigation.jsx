@@ -1,10 +1,12 @@
+import logo from '../assets/images/lagunitas-logo.png';
+
 const Navigation = () => {
   return (
     <>
       {/* Top Navigation */}
       <nav className="fixed top-0 left-0 w-screen h-[12vh] px-[4vw] flex justify-between items-center z-50">
         <img
-          src="/src/assets/images/lagunitas-logo.png"
+          src={logo}
           alt="Lagunitas Logo"
           className="h-[90px]"
         />
